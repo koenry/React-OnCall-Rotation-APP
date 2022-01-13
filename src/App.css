@@ -1,0 +1,336 @@
+@import url(https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap);
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+body {
+    background-color: #003333;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    vertical-align: text-bottom;
+    font-family: "Scheherazade New", serif;
+}
+
+#headerText {
+    display: inline;
+    font-size: 66px;
+    color: whitesmoke;
+}
+#flexBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #003333;
+    line-height: 50%;
+    margin-bottom: 15px;
+    align-items: center;
+    
+}
+.flexBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #005555;
+    line-height: 50%;
+
+
+}
+.flexBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #006666;
+    line-height: 50%;
+}
+.flexBox4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #007777;
+    line-height: 50%;
+}
+#flexBoxLast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: auto;
+    background-color: #003333;
+    line-height: 50%;
+    align-items: center;
+}
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#grid2 {
+    display: none;
+    grid-template-columns: auto auto auto;
+}
+p {
+    color: wheat;
+}
+#name {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 42px;
+}
+.headerText2 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 34px;
+    color: white;
+}
+.button2 {
+    display: block;
+    margin: 0 auto;
+    background-color: #006666;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.button2:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 390px) {
+    #grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #grid2 {
+        display: none;
+        grid-template-columns: auto;
+    }
+    #headerText {
+        font-size: 22px;
+    }
+    #name {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .next1More {
+        font-size: 12px;
+    }
+    .next2More {
+        font-size: 12px;
+    }
+    .headerText2 {
+        font-size: 12px;
+    }
+    .countDown {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 391px) {
+    #grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #grid2 {
+        display: none;
+        grid-template-columns: auto;
+    }
+    #headerText {
+        font-size: 28px;
+    }
+    #name {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .next1More {
+        font-size: 14px;
+    }
+    .next2More {
+        font-size: 14px;
+    }
+    .headerText2 {
+        font-size: 12px;
+    }
+    .countDown {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 595px) {
+    #headerText {
+        font-size: 38px;
+    }
+    #name {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .next1More {
+        font-size: 20px;
+    }
+    .next2More {
+        font-size: 20px;
+    }
+    .headerText2 {
+        font-size: 16px;
+    }
+    .countDown {
+        font-size: 28px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    #headerText {
+        font-size: 40px;
+    }
+    #name {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .next1More {
+        font-size: 22px;
+    }
+    .next2More {
+        font-size: 22px;
+    }
+    .headerText2 {
+        font-size: 18px;
+    }
+    .countDown {
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 869px) {
+    #headerText {
+        font-size: 44px;
+    }
+    #name {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .next1More {
+        font-size: 24px;
+    }
+    .next2More {
+        font-size: 24px;
+    }
+    .headerText2 {
+        font-size: 20px;
+    }
+    .countDown {
+        font-size: 34px;
+    }
+}
+@media only screen and (min-width: 1185px) {
+    #grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #grid2 {
+        display: none;
+        grid-template-columns: auto auto auto;
+    }
+    #headerText {
+        font-size: 56px;
+    }
+    .next1More {
+        font-size: 24px;
+    }
+    .next2More {
+        font-size: 24px;
+    }
+    #name {
+        font-size: 42px;
+    }
+    .headerText2 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .countDown {
+        font-size: 28px;
+    }
+    .button2 {
+        font-size: 17px;
+    }
+    .flexBox2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #005555;
+        line-height: 50%;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .flexBox3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #006666;
+        line-height: 50%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .flexBox4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #007777;
+        line-height: 50%;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    #flexBoxLast {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin-top: auto;
+        background-color: #003333;
+        line-height: 50%;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+}
