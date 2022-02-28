@@ -3,4 +3,10 @@
 
 
 ### A simple app I wrote for work 
-#### it grabs info from a json file and displays who is on duty for this week with a timer and an upcomming month schedule and responsive design
+ it grabs information from a json file and displays who is on call for the week <br />
+ with a timer and an upcomming month schedule and a responsive design <br />
+This was my first react app I created. <br />
+
+
+### BUGS
+Has memory issues
