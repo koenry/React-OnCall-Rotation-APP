@@ -9,4 +9,4 @@ This was my first react app I created. <br />
 
 
 ### BUGS
-Has memory issues
+Has memory issues because of the countdown and react hooks - need more reading and testing to fix it.
